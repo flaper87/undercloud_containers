@@ -74,7 +74,7 @@ sudo puppet apply --modulepath /etc/puppet/modules --execute "include ::tripleo:
 
 # TRIPLEO HEAT TEMPLATES
 cd
-git clone git://git.openstack.org/openstack/tripleo-heat-templates
+git clone https://github.com/flaper87/tripleo-heat-templates
 cd tripleo-heat-templates
 
 # Support configurable Zaqar backends
